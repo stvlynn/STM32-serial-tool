@@ -3,7 +3,7 @@ import time
 
 # 打开串口通信
 def open_serial(serial_port):
-    return serial.Serial(serial_port, 115200)
+    return serial.Serial(serial_port, 115200) #波特率
 
 # 串口测试模式
 def serial_test(serial_port):
